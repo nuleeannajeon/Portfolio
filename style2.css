@@ -89,10 +89,13 @@ h2 {
     border-radius: 5rem;
     border: 2px solid #FFB6C1;
 }
+.profile-btns {
+    margin: 20px;
+}
 .profile-btn {
     color:rgb(102, 98, 102);
     font-size: 2rem;
-    margin-top: 1rem;
+    padding: 10px;
 }
 .profile-btn:hover {
     color: darkgray;
