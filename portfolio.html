@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework02</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>   
+    <link href="https://fonts.googleapis.com/css2?family=Hind&display&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -15,75 +17,93 @@
 
 <body>
 
-    <header>
+    <nav class="navbar navbar-expand-lg" style="background-color: white;">
+        <a class="navbar-brand" href="index.html">Anna Jeon</a>
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-lg-auto mr-lg-5"> <!-- nav-tabs -->
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
 
-        <nav class="navbar navbar-expand flex-column flex-md-row border-bottom mb-3">
-
-            <a class="navbar-brand ml-md-4" href="index.html">Anna Nulee Jeon</a>
-
-            <ul class="navbar-nav ml-md-auto mr-md-3">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        
-    </header>
-
-    <main class="container float-md-left ml-md-4">
-        <h2>Portfolio</h2>
-        <hr>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="pictureone">
-                    <h5>Word Guess</h5>
+    <main class="container">
+        <div class="portfolio">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="portfolio-each">
+                        <a class="portfolio-link" href="">
+                            <img src="images/pethome.png" class="portfolio-image" width="100%" height="">
+                            <div class="portfolio-title">
+                                <h5>Pet Adoption Application</h5>
+                                <p>Third-Party API Project</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            
-                
-            </div>
-            <div class="col-md-6">
-                <div class="picturetwo">
-                    <h5>RPG Game</h5>
+                <div class="col-md-6">
+                    <div class="portfolio-each">
+                        <a class="portfolio-link" href="">
+                            <img src="images/pethome.png" class="portfolio-image" width="100%" height="">
+                            <div class="portfolio-title">
+                                <h5>Pet Adoption Application</h5>
+                            </div>
+                        </a>
+                    </div>           
                 </div>
-                             
-            </div>
-        
-            <div class="col-md-6">
-                <div class="picturethree">
-                       <h5>Trivia Game</h5>
+                <div class="col-md-6">
+                    <div class="portfolio-each">
+                        <a class="portfolio-link" href="">
+                            <img src="images/pethome.png" class="portfolio-image" width="100%" height="">
+                            <div class="portfolio-title">
+                                <h5>Pet Adoption Application</h5>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-
-             
-            </div>
-            <div class="col-md-6">
-                <div class="picturefour">
-                      <h5>Info Widget</h5>
+                <div class="col-md-6">
+                    <div class="portfolio-each">
+                        <a class="portfolio-link" href="">
+                            <img src="images/pethome.png" class="portfolio-image" width="100%" height="">
+                            <div class="portfolio-title">
+                                <h5>Pet Adoption Application</h5>
+                            </div>
+                        </a>
+                    </div>         
+                </div>  
+                <div class="col-md-6">
+                    <div class="portfolio-each">
+                        <a class="portfolio-link" href="">
+                            <img src="images/pethome.png" class="portfolio-image" width="100%" height="">
+                            <div class="portfolio-title">
+                                <h5>Pet Adoption Application</h5>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-
-                           
-            </div>  
-            <div class="col-md-6">
-                <div class="picturefive">
-                     <h5>Rock Paper Scissors</h5>
-                </div>
-
-               
             </div>
         </div>
     </main>
 
-    <footer>
-        <p>© Copyright</p>    
+    <footer class="footer">
+        © 2020 Anna Jeon
+        <div class="footer-btns float-right">
+            <a type="button" class="btn footer-btn" href="https://github.com/nuleeannajeon"><i class="fab fa-github"></i></a>
+            <a type="button" class="btn footer-btn" href="https://ca.linkedin.com/in/annanuleejeon"><i class="fab fa-linkedin"></i></a>
+            <a type="button" class="btn footer-btn" href=""><i class="fas fa-file"></i></a>
+        </div>
     </footer>
 
-
-    
 </body>
-
 </html>
