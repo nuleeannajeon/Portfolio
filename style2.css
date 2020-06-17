@@ -168,10 +168,10 @@ footer {
     border: 1px solid lightgrey;
     margin-bottom: 1rem;
     max-width: 500px;
-    max-height: 400px;
+    max-height: 270px;
 }
 .portfolio-image:hover{
-    opacity: 0.8;
+    box-shadow: 1px 1px 10px rgb(156, 143, 143);
 }
 
 .portfolio-title {
@@ -182,8 +182,9 @@ footer {
     padding-top: 1rem;
 }
 .portfolio-title:hover {
-    color: rgb(243, 145, 159);
-    text-decoration: none;
+    color: rgb(248, 87, 111);
+    font-weight: bold;
+    font-size: 22px;
 }
 .portfolio-title p {
     font-size: 15px;
