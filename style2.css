@@ -193,18 +193,32 @@ footer {
 }
 
 /* CONTACT */
-.contact {
+.contact-info {
     background-color: white;
     border: 3px solid #FFB6C1;
     border-radius: 5px;
-    margin: 2rem 0rem 4rem 0rem;
-    padding: 2rem 10px 3rem 10px;
+    margin: 3rem 0;
+    padding: 2rem 0 1.5rem 0;
 }
 .submit-btn {
     background-color: #FFB6C1;
     color: #696969;
     border-radius: 2rem;
+}
 
+.personal-contact {
+    text-align:center;
+    margin-top: 20px;
+    line-height: 0;
+    padding: 15px 0;
+    background: rgb(247, 243, 243);
+    border-radius: 10px;
+}
+
+.line-space {
+    font-size: 10px;
+    color: rgb(248, 87, 111);
+    padding: 10px 0;
 }
 
 @media (min-width: 992px) {
@@ -225,7 +239,15 @@ footer {
         padding-left: 10rem;
         padding-right: 10rem;
     }
+    .personal-contact{
+        margin-top: 50px;
+        padding: 60px 5px 55px 5px;
+    }
+    .line-space {
+        padding: 30px 0;
+    }
     .footer-btn {
         font-size: 30px;
     }
+
 }
