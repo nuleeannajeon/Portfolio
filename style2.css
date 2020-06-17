@@ -73,6 +73,11 @@ footer {
     max-height: 500px;
     margin:0;
 }
+.jumbo-text {
+    text-align: right; 
+    color: white;
+    text-shadow: 4px 4px 10px rgb(87, 2, 35);
+}
 
 /* ABOUT ME */
 .description {
