@@ -6,7 +6,7 @@ If you are opting out of career services, this is *still a required assignment*.
 
 ## Screenshots
 ![desktop screenshot](./images/screenshot-desktop.png)
-![mobile home](./images/mobile-index.png) ![mobile portfolio](./images/mobile-portfolio.png) ![mobile contact](./images/mobile-contact.png)
+![mobile home](./images/mobile-index.png) ![mobile portfolio](./images/mobile-portfolio.png)
 
 ## Requirements
 
